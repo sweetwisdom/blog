@@ -1,584 +1,266 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blooria</title>
-    <link rel="icon" href="http://demo.mxyhn.xyz:8020/cssthemes6/skk-0619-31/assets/img/favicon.ico" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="static/css/base-style.css">
-    <link rel="stylesheet" href="static/css/style.css">
-    <script src="static/js/dark-light.js"></script>
-</head>
-<body class="placeholder">
-    <div class="loader-wrapper">
-        <div class="count"></div> 
-        <div class="loader"></div>
-        <div class="loader2"></div>
-    </div>
-<!-- header area start from here-->
-<header class="header-area ">
-    <div class="container">
-        <div class="header-wrapper d-flex align-items-center justify-content-between">
-            <!--header-logo-->
-            <div class="header-logo">
-                <a href="">Blooria</a>
-            </div>
-            <!-- menu-bar -->
-            <div class="menu-bar">
-                <ul class="d-flex align-items-center justify-content-between">
-                    <li><a href="#">Home</a>
-                        <ul class="dropdown">
-                            <li><a href="">Home</a></li>
-                            <li><a href="homepage-sidebar.html">Home With Sidebar</a></li>
-                            <li><a href="homepage-minimal.html">Home Minimal</a></li>
-                            <li><a href="home-sidebar-minimal.html">Home Minimal Two</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="author.html">Authors</a></li>
-                    <li><a href="#">Shop</a>
-                        <ul class="dropdown">
-                            <li><a href="shop-page.html">Product</a></li>
-                            <li><a href="product-details.html">Product Details</a></li>
-                            <li><a href="card.html">Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="account-two.html">Account</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Pages</a>
-                        <ul class="dropdown">
-                            <li><a href="premium-page.html"> Premium Page</a></li>
-                            <li><a href="single-author.html">Single Author</a></li>
-                            <li><a href="style-guide.html">Style Guide</a></li>
-                            <li><a href="single-blog.html">Single Blog</a></li>
-                            <li><a href="single-tag.html">Single Tag</a></li>
-                            <li><a href="single-left-sidebar.html">Single With Left sidebar</a></li>
-                            <li><a href="single-right-sidebar.html">Single With Right sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="membership.html">Membership</a></li>
-                    <li><a href="tag-page.html">Tag</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="account-page.html">Account</a></li>
-                </ul>
-            </div>
-            <!-- sign-in area -->
-            <div class="sign-in-area">
-                <ul class="d-flex align-items-center justify-content-between">
-                    <li class="popup"><img src="static/picture/search.svg" alt=""></li>
-                    <li class="dark-light"><img src="static/picture/dark-light.svg" alt=""></li>
-                    <li class="sign-click relative">Sign in
-                        <!-- sign-in dropdawn -->
-                        <div class="sign-in-card">
-                            <h3>Welcome back.</h3>
-                            <p>Sign in to get personalized story recommendations, ollow authors and topics you love, and interact with stories.</p>
-                            <div class="input-group-icon radious-6 mb-30">
-                                <input type="email" placeholder="Type your email...">
-                                <img src="static/picture/mail-sign.svg" alt="">
-                            </div>
-                            <div class="sign-link">
-                                <p>Don't have an account?</p>
-                                <a href="#">Sign Up</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                         <!--mobile menu icon-->
-                        <div class="menu-toggole">
-                            <span class="menu-show comon-tab">
-                                <img src="static/picture/toggle.svg" alt="">                
-                            </span>
-                            <span class="menu-close comon-tab">
-                                <img src="static/picture/close.svg" alt="">            
-                            </span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- menu search popup -->
-    <div class="search-popup-area">
-        <div class="search-option">
-            <div class="search-box">
-                <img src="static/picture/search.svg" alt="">
-                <input id="search" name="search" type="text" data-list=".data-list" placeholder="Type your keywords...">
-            </div>
-            <div class="data-list-wrapper">
-                <ul class="data-list">
-                    <li>
-                        <a href="">
-                           <div class="search-content">
-                                 <div class="search-title">
-                                    <h4>Ingredients to look for in skin care products <span>April 30, 2019</span></h4>
-                                </div>
-                                <p>Read our top seven health benefits of fishing to learn why, whether you're a match angler or a weekend hobbyist.</p>
-                           </div>
-                           <img src="static/picture/arrow-left.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                           <div class="search-content">
-                                 <div class="search-title">
-                                    <h4>Sky Parachute Adventure <span>April 25, 2019</span></h4>
-                                </div>
-                                <p>Muay Thai (Thai boxing) is the most popular contact sport in Thailand, and a pillar of Thai culture, so much so that for years the Thai government has been asking, unsuccessfully, for it to be included as an Olympic sport. </p>
-                           </div>
-                           <img src="static/picture/arrow-left.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                           <div class="search-content">
-                                 <div class="search-title">
-                                    <h4>Small boy and girl on road<span>April 18, 2019</span></h4>
-                                </div>
-                                <p>Many parents are tired of the pink and blue divide in the toy aisles. Just last month, the White House held a conference in toys and media, with many toy manufacturers and experts attending. After feedback, Target announced in 2015 that it would get rid of signs labeling toys for boys or for girls</p>
-                           </div>
-                           <img src="static/picture/arrow-left.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                           <div class="search-content">
-                                 <div class="search-title">
-                                    <h4>Colorful women digital art face<span>April 21, 2019</span></h4>
-                                </div>
-                                <p>The first thing I do before starting an illustration is to browse through my folder of inspiration. Inside are plenty of sub-folders, containing images of lighting, faces, human figures, clothing, illustrations from my favourite artists, animals, caterpillars, flowers and plenty more besides.</p>
-                           </div>
-                           <img src="static/picture/arrow-left.svg" alt="">
-                        </a>
-                    </li>
-                   
-                </ul>
-            </div>
-        </div>
-        <div class="popup-close-icon">
-            <img src="static/picture/close-icon.svg" alt="">
-        </div>
-    </div>
-</header>
-<!-- banner area start from here -->
-<section class="banner-area">
-    <div class="container">
-        <div class="banner-owl-area owl-carousel" data-carousel-loop="true" data-carousel-autoplay="false" data-carousel-mousedrag="true" data-carousel-items="1" data-carousel-nav="false">
-            <div class="banner-single-wrapper">
-                <div class="banner-img-area">
-                    <h4>featured stories</h4>
-                    <div class="banner-img">
-                        <img src="static/picture/banner-image.jpg" alt="">
-                    </div>
-                </div>
-                <div class="banner-content-area">
-                    <h5>Travel</h5>
-                    <h1><a href="#">You got to cool that off. and hat's the double-truth</a></h1>
-                    <h4 class="date"><span>29.Nov.2018</span> -Eiad Basha</h4>
-                    <p>Hung that found of the from diesel to the venerable, you what you spare at cleaning in coming was sign introduced attempt, then would was try make brown on small careful cheek, and spirits build needed room so times from </p>
-                    <button class="btn btn-sm btn-radious-6 btn-black">Read More</button>
-                </div>
-            </div>
-            <div class="banner-single-wrapper">
-                <div class="banner-img-area">
-                    <h4>featured stories</h4>
-                    <div class="banner-img">
-                        <img src="static/picture/banner-image.jpg" alt="">
-                    </div>
-                </div>
-                <div class="banner-content-area">
-                    <h5>Travel</h5>
-                    <h1><a href="#">A muscial gift on bangla noboborsha from Armeen Musa</a></h1>
-                    <h4 class="date"><span>20.Nov.2019</span> -Written by Eiad Basha</h4>
-                    <p>Hung that found of the from diesel to the venerable, you what you spare at cleaning in coming was sign introduced attempt, then would was try make brown on small careful cheek, and spirits build needed room so times from </p>
-                    <button class="btn btn-sm btn-radious-6 btn-black">Read More</button>
-                </div>
-            </div>
-            <div class="banner-single-wrapper">
-                <div class="banner-img-area">
-                    <h4>featured stories</h4>
-                    <div class="banner-img">
-                        <img src="static/picture/banner-image.jpg" alt="">
-                    </div>
-                </div>
-                <div class="banner-content-area">
-                    <h5>Travel</h5>
-                    <h1><a href="#">You got to cool that off. and hat's the double-truth</a></h1>
-                    <h4 class="date"><span>29.Nov.2018</span> -Written by Eiad Basha</h4>
-                    <p>Hung that found of the from diesel to the venerable, you what you spare at cleaning in coming was sign introduced attempt, then would was try make brown on small careful cheek, and spirits build needed room so times from </p>
-                    <button class="btn btn-sm btn-radious-6 btn-black">Read More</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- all stories section start here -->
-<section class="all-stories-area pt-100 pb-50">
-    <div class="section-heading text-center">
-        <h2>All Stories</h2>
-    </div>
-    <div class="container">
-        <div class="row grid">
-            <div class="col-sm-6 col-lg-4 mb-30 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img1.jpg" alt="">
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">Beauty</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                       <h4 class="card-title"><a href="single-blog.html">Ingredients to look for in skin care products</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-30 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img2.jpg" alt="">
-                        <a href="#" class="card-img-title">Member</a>
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">Cooking</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                        <h4 class="card-title"><a href="single-blog.html">Cooking recipes anytime and anywhere</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-30 grid-item">
-                <div class="single-stories-card-content">
-                    <div class="sub-title-wrapper">
-                        <h4 class="card-sub-title">Technology</h4>
-                        <h5 class="card-date">Apr 30, 2019</h5>
-                    </div>
-                    <h4 class="card-title"><a href="single-blog.html">video games playing with imagination</a></h4>
-                    <p class="card-content">Glanced was, frequency, this tower, writers, a of its in of by the subdued titles extended.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-30 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img2.jpg" alt="">
-                        <a href="#" class="card-img-title">Premium</a>
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">Travel</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                         <h4 class="card-title"><a href="single-blog.html">Travel prudently luggage and carry on worries</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-30 grid-item">
-                <div class="single-stories-card-content">
-                    <div class="sub-title-wrapper">
-                        <h4 class="card-sub-title">Philosophy</h4>
-                        <h5 class="card-date">Apr 30, 2019</h5>
-                    </div>
-                    <h4 class="card-title"><a href="single-blog.html">Dream interpretation common symbols and their meanings</a></h4>
-                    <p class="card-content">Glanced was, frequency, this tower, writers, a of its in of by the subdued titles extended.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-30 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img4.jpg" alt="">
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">Education</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                         <h4 class="card-title"><a href="single-blog.html">It would be totally painless - they just slip into unconsciousness</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-md-30 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img5.jpg" alt="">
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">lifestyle</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                        <h4 class="card-title"><a href="single-blog.html">The reason we're gathered here on God-given, much-needed day</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-xs-30 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img4.jpg" alt="">
-                        <a href="#" class="card-img-title">Free</a>
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">cooking</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                        <h4 class="card-title"><a href="single-blog.html">Why Do make ahead recipes work so well to reduce your dinner.</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 grid-item">
-                <div class="single-stories-card">
-                    <div class="stories-card-img">
-                        <img src="static/picture/stories-img5.jpg" alt="">
-                    </div>
-                    <div class="stories-card-content">
-                        <div class="sub-title-wrapper">
-                            <h4 class="card-sub-title">Culture</h4>
-                            <h5 class="card-date">Apr 30, 2019</h5>
-                        </div>
-                         <h4 class="card-title"><a href="single-blog.html">Winged evening Green Him together good together</a></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="post-order-wrapper">
-                    <ul class="d-flex align-items-center justify-content-between">
-                        <li><a href=""><img class="mr-10" src="static/picture/arrow-right.svg" alt="">Newer Post</a></li>
-                        <li><a href="">Older Post <img class="ml-10" src="static/picture/arrows-left.svg" alt=""></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- sports and food section start here-->
-<section class="side-img-card-area pt-50 pb-100 pb-md-60 pt-md-30">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mb-md-50">
-                <div class="sports-blog-card">
-                    <div class="section-heading">
-                        <h2>#Sports</h2>
-                    </div>
-                    <div class="side-card-wrapper">
-                        <div class="side-img-card-wrapper mb-30 mb-md-0  mb-xs-30">
-                            <div class="side-card-img">
-                                <img src="static/picture/single-blog-img1.jpg" alt="">
-                            </div>
-                            <div class="side-card-content">
-                                <h4 class="card-title"><a href="premium-page.html">After sports were canceled, only the iditarod remained</a></h4>
-                                <p class="card-content">A than in to so even of my times is front better on because the plans. The is perhaps for his own to was that that's it's less.</p>
-                            </div>
-                        </div>
-                        <div class="side-img-card-wrapper">
-                            <div class="side-card-img">
-                                <img src="static/picture/single-blog-img1.jpg" alt="">
-                            </div>
-                            <div class="side-card-content">
-                                 <h4 class="card-title"><a href="premium-page.html">The biggest kansas jayhaw NBA draft busts of all time</a></h4>
-                                <p class="card-content">A than in to so even of my times is front better on because the plans. The is perhaps for his own to was that that's it's less.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="sports-blog-card">
-                    <div class="section-heading">
-                        <h2>#Food</h2>
-                    </div>
-                    <div class="side-card-wrapper">
-                        <div class="side-img-card-wrapper mb-30 mb-md-0 mb-xs-30">
-                            <div class="side-card-img">
-                                <img src="static/picture/single-blog-img1.jpg" alt="">
-                            </div>
-                            <div class="side-card-content">
-                                <h4 class="card-title"><a href="premium-page.html">How to Make a Perfect Pot of French Press Coffee.</a></h4>
-                                <p class="card-content">A than in to so even of my times is front better on because the plans. The is perhaps for his own to was that that's it's less.</p>
-                            </div>
-                        </div>
-                        <div class="side-img-card-wrapper">
-                            <div class="side-card-img">
-                                <img src="static/picture/single-blog-img1.jpg" alt="">
-                            </div>
-                            <div class="side-card-content">
-                                <h4 class="card-title"><a href="premium-page.html">6 Surprising Foods You Should Never Freeze</a></h4>
-                                <p class="card-content">A than in to so even of my times is front better on because the plans. The is perhaps for his own to was that that's it's less.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- popular tag section start here -->
-<section class="popular-tag-area py-100 py-md-60 section-bg">
-    <div class="container">
-        <div class="col-md-12">
-            <div class="section-heading d-flex align-items-center justify-content-between">
-                <h2>Popular Tag</h2>
-                <a href="">View all</a>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <a href="single-tag.html" class="popular-single-tag-wrapper" style="background-image:url(static/image/tag-img1.jpg)">
-                        <div class="tag-title">#Lifestyle</div>
-                        <div class="tag-card">2</div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <a href="single-tag.html" class="popular-single-tag-wrapper" style="background-image:url(static/image/tag-img1.jpg)">
-                        <div class="tag-title">#Cooking</div>
-                        <div class="tag-card">3</div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <a href="single-tag.html" class="popular-single-tag-wrapper" style="background-image:url(static/image/tag-img1.jpg)">
-                        <div class="tag-title">#Education</div>
-                        <div class="tag-card">2</div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-lg-30"> 
-                    <a href="single-tag.html" class="popular-single-tag-wrapper " style="background-image:url(static/image/tag-img1.jpg)">
-                        <div class="tag-title">#Travel</div>
-                        <div class="tag-card">4</div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-md-30">
-                    <a href="single-tag.html" class="popular-single-tag-wrapper" style="background-image:url(static/image/tag-img1.jpg)">
-                        <div class="tag-title">#Lifestyle</div>
-                        <div class="tag-card">2</div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <a href="single-tag.html" class="popular-single-tag-wrapper" style="background-image:url(static/image/tag-img1.jpg)">
-                        <div class="tag-title">#Cooking</div>
-                        <div class="tag-card">3</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--subcribe section start here-->
-<section class="subscribe-area ">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 m-auto">
-                <div class="row align-items-center">
-                    <div class="col-md-10 m-auto">
-                        <div class="suscribe-wrapper">
-                            <div class="section-heading text-center">
-                                <h2>Newsletter</h2>
-                                <p>Subscribe to see what we're thinking & get always latest update</p>
-                            </div>
-                            <div class="subscribe-input">
-                                <input type="email" placeholder="enter your email">
-                                <button class="btn">Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<footer class="footer-area">
-    <div class="footer-top-area">
-        <div class="container">
-            <div class="footer-top-wrapper d-flex justify-content-between">
-                <!--header-logo-->
-                <div class="footer-logo-area">
-                    <div class="header-logo ">
-                        <a href="">Blooria</a>
-                    </div>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <div class="social-icon pt-40 pt-lg-15">
-                        <h4>Follow Us</h4>
-                        <ul class="d-flex align-items-center">
-                            <li><a href="#"><img src="static/picture/facebook.svg" alt=""></a></li>
-                            <li><a href="#"><img src="static/picture/instagram.svg" alt=""></a></li>
-                            <li><a href="#"><img src="static/picture/twitter.svg" alt=""></a></li>
-                            <li><a href="#"><img src="static/picture/youtube.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- menu-bar -->
-                <div class="footer-menu-bar community-area">
-                    <h4>Community</h4>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="javascript:;">Author</a></li>
-                        <li><a href="javascript:;">Membership</a></li>
-                        <li><a href="javascript:;">Style Guide</a></li>
-                        <li><a href="javascript:;">Tag</a></li>
-                        <li><a href="javascript:;">Blog</a></li>
-                        <li><a href="javascript:;">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-menu-bar usefull-link">
-                    <h4>Useful Link</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Team</a></li>
-                    </ul>
-                </div>
-                <div class="contact-area">
-                    <h4>Contact Us</h4>
-                    <div class="contact-address">
-                        <a href="#">blooria@gmail.com</a>
-                        <p>+123 456 - 789</p>
-                        <h4>Road - 13 , Block - B <span>Grand Canion , Arizona , USA</span></h4>
-                    </div>
-                    <div class="contact-app-link">
-                        <h4>See the Map</h4>
-                        <a href="#">https://www.google.com.bd/maps</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom"> 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Copyright © 2020 Blooria All Rights Reserved.</p>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="footer-privacy-card">
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-     <!-- Jquery -->
-    <script src="static/js/jquery-3.3.1.min.js"></script>
-    <script src="static/js/jquery-migrate-1.4.1.min.js"></script>
-    <script src="static/js/popper.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <!--searchbox js-->
-    <script src="static/js/jquery.hideseek.min.js"></script>
-    <!--isotop js-->
-    <script src="static/js/isotop-pakage-min.js"></script>
-    <!-- IMAGE LOADED JS -->
-    <script src="static/js/imagesloaded.pkgd.min.js"></script>
-    <!-- owl carousel -->
-    <script src="static/js/owl.carousel.min.js"></script>
-    <script src="static/js/owl-custom.js"></script>
-    <!--video popup-->
-    <script src="static/js/youtube-overlay.js"></script>
-    <!-- highlight js -->
-    <script src="static/js/highlight.min.js"></script>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="icon" href="./sou/icon/ico.jpg" sizes="300x300" />
+    <link rel="apple-touch-icon-precomposed" href="./sou/icon/32.png" />
+    <meta name="msapplication-TileImage" content="./sou/icon/32.png" />
+    <link rel="shortcut icon" href="./sou/icon/ico.jpg" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="full-screen" content="yes">
+    <!--UC强制全屏-->
+    <meta name="browsermode" content="application">
+    <!--UC应用模式-->
+    <meta name="x5-fullscreen" content="true">
+    <!--QQ强制全屏-->
+    <meta name="x5-page-mode" content="app">
+    <!--QQ应用模式-->
+    <title>简单搜索</title>
+    <link href="./sou/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1230786_gdvd1b4wlz.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//at.alicdn.com/t/font_1230786_r8hysrawg9e.js"></script>
+    <script src="./sou.js"></script>
+    <script>
+        WIDGET = { ID: 'izyhY6OTX8' };
+    </script>
 
-    <!--nice-select js here-->
-    <script src="static/js/jquery.nice-select.min.js"></script>
-    <script src="static/js/scripts.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- 天气插件 -->
+    <!-- 天气 -->
+    <div class="weathers">
+        <div id="he-plugin-standard"></div>
+    </div>
+
+
+    <!-- 开始菜单 -->
+    <div id="menu"><i></i></div>
+    <div class="list closed">
+        <ul>
+            <li class="title"><i class="iconfont icon-dribbble"></i> 生活专区</li>
+            <li><a rel="nofollow" href="https://tianqi.qq.com/" target="_blank"><i class="iconfont icon-tengxunshipin"
+                        style="color:#2a0;"></i>天气</a></li>
+            <li class="title"><i class="iconfont icon-shipin"></i> 视频媒体</li>
+            <li><a rel="nofollow" href="https://www.youtube.com/" target="_blank"><i class="iconfont icon-youtube"
+                        style="color:#f03;"></i>Youtube</a></li>
+            <li><a rel="nofollow" href="https://v.qq.com/" target="_blank"><i class="iconfont icon-tengxunshipin"
+                        style="color:#2a0;"></i>腾讯视频</a></li>
+            <li><a rel="nofollow" href="https://www.youku.com/" target="_blank"><i class="iconfont icon-youku"
+                        style="color:#09e;"></i>优酷</a></li>
+            <li><a rel="nofollow" href="https://www.iqiyi.com/" target="_blank"><i class="iconfont icon-aiqiyi"
+                        style="color:#1d0;"></i>爱奇艺</a></li>
+            <li><a rel="nofollow" href="http://www.zmz2019.com/" target="_blank"><i class="iconfont icon-zimu"
+                        style="color: #067;"></i>字幕组</a></li>
+            <li><a rel="nofollow" href="http://www.acfun.cn/index.html" target="_blank"><i class="iconfont icon-acfun"
+                        style="color:#f33;"></i>ACFUN</a></li>
+            <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank"><i class="iconfont icon-bili"
+                        style="color:#0ad;"></i>哔哩哔哩</a></li>
+            <li><a rel="nofollow" href="/movies/" target="_blank"><i class="iconfont icon-yunbo"
+                        style="color:#ff8800;"></i>影视搜索</a></li>
+            <!------>
+            <li class="title"><i class="iconfont icon-sheji"></i> 设计视觉</li>
+            <li><a rel="nofollow" href="https://web.yyv.me/" target="_blank"><i
+                        class="iconfont icon-daohang1"></i>设计导航</a></li>
+            <li><a rel="nofollow" href="https://www.pinterest.com/" target="_blank"><i class="iconfont icon-pinterest"
+                        style="color:#e02;"></i>Pinterest</a></li>
+            <li><a rel="nofollow" href="https://www.behance.net/" target="_blank"><i class="iconfont icon-behance"
+                        style="color:#56f;"></i>Behance</a></li>
+            <li><a rel="nofollow" href="https://www.dribbble.com/" target="_blank"><i class="iconfont icon-dribbble"
+                        style="color:#e48;"></i>Dribbble</a></li>
+            <li><a rel="nofollow" href="https://huaban.com/" target="_blank"><i class="iconfont icon-huaban"
+                        style="color:#f06;"></i>花瓣</a></li>
+            <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank"><i class="iconfont icon-zhanku"
+                        style="color:#f90;"></i>站酷</a></li>
+            <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><i class="iconfont icon-iconfont"
+                        style="color: #ff6019;"></i>阿里图标</a></li>
+            <li><a rel="nofollow" href="https://www.iconfinder.com/" target="_blank"><i
+                        class="iconfont icon-eye"></i>IconFinder</a></li>
+            <li><a rel="nofollow" href="https://uiiiuiii.com/" target="_blank"><i class="iconfont icon-jiaocheng"
+                        style="color:#0aa;"></i>优设教程</a></li>
+            <!------>
+            <li class="title"><i class="iconfont icon-msg"></i> 社交</li>
+            <li><a rel="nofollow" href="https://www.weibo.com" target="_blank"><i class="iconfont icon-weibo"
+                        style="color: #e6162d;"></i>微博</a></li>
+            <li><a rel="nofollow" href="https://www.zhihu.com/" target="_blank"><i class="iconfont icon-zhihu"
+                        style="color: #0084ff;"></i>知乎</a></li>
+            <li><a rel="nofollow" href="https://www.douban.com/" target="_blank"><i class="iconfont icon-douban"
+                        style="color: #072;"></i>豆瓣</a></li>
+            <li><a rel="nofollow" href="https://www.jianshu.com/" target="_blank"><i class="iconfont icon-jianshu"
+                        style="color:#e46e57;"></i>简书</a></li>
+            <li><a rel="nofollow" href="https://www.v2ex.com/" target="_blank"><i class="iconfont icon-v2ex"
+                        style="color: #555;"></i>V2EX</a></li>
+            <li><a rel="nofollow" href="https://www.instagram.com" target="_blank"><i class="iconfont icon-instagram"
+                        style="color: #93009f;"></i>Instagram</a></li>
+            <li><a rel="nofollow" href="https://www.twitter.com" target="_blank"><i class="iconfont icon-twitter"
+                        style="color: #00bcff;"></i>Twitter</a></li>
+            <li><a rel="nofollow" href="https://www.facebook.com" target="_blank"><i class="iconfont icon-facebook"
+                        style="color: #4267b2;"></i>Facebook</a></li>
+            <!------>
+            <li class="title"><i class="iconfont icon-gouwuche"></i> 购物</li>
+            <li><a rel="nofollow" href="https://www.taobao.com" target="_blank"><i class="iconfont icon-taobao"
+                        style="color: #ff6019;"></i>淘宝网</a></li>
+            <li><a rel="nofollow" href="https://dyartstyle.com/juhuasuan/" target="_blank"><i
+                        class="iconfont icon-juhuasuan" style="color: #E61414;"></i>聚划算</a></li>
+            <li><a rel="nofollow" href="https://dyartstyle.com/temai/" target="_blank"><i class="iconfont icon-temai"
+                        style="color: #ff6019;"></i>淘宝特卖</a></li>
+            <li><a rel="nofollow"
+                    href="https://mobile.yangkeduo.com/duo_cms_mall.html?pid=8742514_71211367&cpsSign=CM_190605_8742514_71211367_92fdd9f7fb637fec599bf556f263ed1f&duoduo_type=2&launch_wx=1"
+                    title="拼多多手机端专属商城，超低价商品火热抢购中，更有超多大额优惠券持续发放，一键立抢>>" target="_blank"><i class="iconfont icon-99"
+                        style="color: #f83e3e;"></i>拼多多</a></li>
+            <li><a rel="nofollow" href="https://www.jd.com" target="_blank"><i class="iconfont icon-jingdong"
+                        style="color: #e33333;"></i>京东</a></li>
+            <li><a rel="nofollow" href="https://www.suning.com/" target="_blank"><i class="iconfont icon-suning"
+                        style="color: #f90;"></i>苏宁易购</a></li>
+            <li><a rel="nofollow" href="http://you.163.com/" target="_blank"><i class="iconfont icon-yanxuan"
+                        style="color: #B4A078;"></i>网易严选</a></li>
+            <li><a rel="nofollow" href="https://www.amazon.cn/" target="_blank"><i class="iconfont icon-amazon"
+                        style="color: #fc9b18;"></i>亚马逊</a></li>
+            <li><a rel="nofollow" href="http://www.dangdang.com/" target="_blank"><i class="iconfont icon-dangdang"
+                        style="color: #ff2832;"></i>当当</a></li>
+            <li><a rel="nofollow" href="https://wat.dyartstyle.com/" target="_blank"><i class="iconfont icon-wat"
+                        style="color: #fe2e52;"></i>吾爱淘</a></li>
+            <!------>
+            <li class="title"><i class="iconfont icon-youxiang"></i> 邮箱</li>
+            <li><a rel="nofollow" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i
+                        class="iconfont icon-gmail" style="color: #f03;"></i>Gmail</a></li>
+            <li><a rel="nofollow" href="https://outlook.live.com/mail/" target="_blank"><i class="iconfont icon-windows"
+                        style="color: #059;"></i>Hotmail</a></li>
+            <li><a rel="nofollow" href="https://mail.163.com/" target="_blank"><i class="iconfont icon-wangyi"
+                        style="color: #c6001d;"></i>网易邮箱</a></li>
+            <li><a rel="nofollow" href="https://mail.sina.com.cn/" target="_blank"><i class="iconfont icon-xinlang"
+                        style="color: #e6162d;"></i>新浪邮箱</a></li>
+            <li><a rel="nofollow" href="https://mail.qq.com/" target="_blank"><i class="iconfont icon-QQ"
+                        style="color: #f05;"></i>QQ邮箱</a></li>
+            <li><a rel="nofollow" href="https://qiye.aliyun.com/" target="_blank"><i class="iconfont icon-yunyouxiang"
+                        style="color: #f15534;"></i>阿里邮箱</a></li>
+            <!------>
+            <li class="title"><i class="iconfont icon-ai-tool"></i> 工具</li>
+            <li><a rel="nofollow" href="http://tools.imiku.me/" target="_blank"><i
+                        class="iconfont icon-ai-tool"></i>Miku工具</a></li>
+            <li><a rel="nofollow" href="/ip/" target="_blank"><i class="iconfont icon-wangluo"
+                        style="color: #02f;"></i>IP查询</a></li>
+            <li><a rel="nofollow" href="https://translate.google.cn/?hl=zh-CN" target="_blank"><i
+                        class="iconfont icon-fanyi" style="color: #02f;"></i>谷歌翻译</a></li>
+            <li><a rel="nofollow" href="http://www.slimego.cn/" target="_blank"><i class="iconfont icon-shilaimu"
+                        style="color: #0f89c2;"></i>史莱姆</a></li>
+            <li><a rel="nofollow" href="https://feedly.com" target="_blank"><i class="iconfont icon-feedly"
+                        style="color: #11dd00;"></i>Feedly</a></li>
+            <li><a rel="nofollow" href="https://pan.baidu.com" target="_blank"><i class="iconfont icon-baiduyun"
+                        style="color: #148bfe;"></i>百度网盘</a></li>
+            <li><a rel="nofollow" href="https://www.baiduwp.com" target="_blank"><i class="iconfont icon-cloud-download"
+                        style="color: #148bfe;"></i>网盘解析</a></li>
+            <li><a rel="nofollow" href="https://www.mdeditor.com/" target="_blank"><i class="iconfont icon-md"
+                        style="color:#09f;"></i>MD编辑器</a></li>
+            <li><a rel="nofollow" href="http://cubic-bezier.com" target="_blank"><i class="iconfont icon-quxian"
+                        style="color: #f08;"></i>贝赛尔曲线</a></li>
+            <li><a rel="nofollow" href="/base64/" target="_blank"><i class="iconfont icon-base64"
+                        style="color:#1d0;"></i>Base64</a></li>
+            <li><a rel="nofollow" href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx" target="_blank"><i
+                        class="iconfont icon-jshunxiao" style="color: #48c;"></i>JS混淆器</a></li>
+            <li><a rel="nofollow" href="https://ping.pe" target="_blank"><i class="iconfont icon-wangluo1"
+                        style="color:#1d0;"></i>Ping.pe</a></li>
+            <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="iconfont icon-pingup"
+                        style="color:#2361ad;"></i>站长Ping</a></li>
+            <li><a rel="nofollow" href="https://apkdl.in/" target="_blank"><i class="iconfont icon-anzhuo"
+                        style="color:#094;"></i>APK下载</a></li>
+            <!------>
+            <li class="title"><i class="iconfont icon-kongzhitai"></i> 开发</li>
+            <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><i class="iconfont icon-h5"
+                        style="color:#c03;"></i>W3school</a></li>
+            <li><a rel="nofollow" href="https://github.com/" target="_blank"><i
+                        class="iconfont icon-github"></i>Github</a></li>
+            <li><a rel="nofollow" href="https://codepen.io/" target="_blank"><i
+                        class="iconfont icon-codepen"></i>Codepen</a></li>
+            <li><a rel="nofollow" href="https://www.52pojie.cn/" target="_blank"><i class="iconfont icon-theater-masks"
+                        style="color:#f03;"></i>吾爱破解</a></li>
+            <li><a rel="nofollow" href="https://segmentfault.com/" target="_blank"><i class="iconfont icon-msg"
+                        style="color:#096;"></i>SF思否</a></li>
+            <li><a rel="nofollow" href="https://cdnjs.com/" target="_blank"><i class="iconfont icon-cdnjs"
+                        style="color: #e52;"></i>CdnJs</a></li>
+            <li><a rel="nofollow" href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank"><i
+                        class="iconfont icon-font-awesome" style="color: #4af;"></i>Font A.</a></li>
+            <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><i class="iconfont icon-windows"
+                        style="color: #48c;"></i>MSDN下载</a></li>
+            <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank"><i
+                        class="iconfont icon-cloudflare" style="color: #f37f20;"></i>C. flare</a></li>
+            <li><a rel="nofollow" href="https://www.swiper.com.cn/" target="_blank"><i class="iconfont icon-S"
+                        style="color:#065fe3;"></i>Swiper</a></li>
+        </ul>
+    </div>
+    <div id="tp-weather-widget" class="mywth"></div>
+
+
+    <div id="content">
+        <div class="con">
+            <div class="shlogo"></div>
+            <div class="sou">
+                <form action="https://www.baidu.com/s?" method="get" target="_blank">
+                    <input class="wd" type="text" baidusug="1" placeholder="请输入搜索内容" autocomplete="off" name="wd"
+                        x-webkit-speech lang="zh-CN">
+                    <button><i style="font-size: 20px;" class="iconfont icon-sousuo"></i></button>
+                </form>
+                <div id="word"></div>
+                <ul>
+                    <li data-s="baidu" target="_blank"><i style="background-image: url(./sou/icon/baidu.svg);"></i>百度一下
+                    </li>
+                    <li data-s="google" target="_blank"><i style="background-image: url(./sou/icon/g.svg);"></i>Google
+                    </li>
+                    <li data-s="360" target="_blank"><i style="background-image: url(./sou/icon/so.svg);"></i>360搜索</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="foot">© 2016-2019 by <a href="https://www.zhihu.com/people/zhang-cheng-30-28-42" target="_blank">张大明</a>
+        .
+        All
+        rights reserved.</div>
+
+    <!-- 侧边栏区域 -->
+    <div class="box">
+        <ul>
+            <li class="weixin">
+                <div class="weixin-logo"></div>
+            </li>
+
+            <a href="https://wj.qq.com/s2/6400778/509c" target="_blank">
+                <li class="idea">
+                </li>
+
+            </a>
+
+
+        </ul>
+    </div>
+    <!-- <script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script> -->
+    <script>
+        WIDGET = {
+            "CONFIG": {
+                "layout": "1",
+                "width": 450,
+                "height": 150,
+                "background": "2",
+                "dataColor": "000000",
+                "aqiColor": "FFFFFF",
+                "borderRadius": "5",
+                "key": "52f271f959104f9bbd7f5f55c6680544"
+            }
+        }
+    </script>
+    <script src="https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0"></script>
 </body>
+
 </html>
